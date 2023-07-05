@@ -1,0 +1,50 @@
+/* botones numericos */
+
+.button{
+
+    -fx-background-color:
+        #e585ff,
+        linear-gradient(#fcfcfc, #f3f3f3),
+        linear-gradient(#eeb0ff 30%, #e585ff 70%, #e585ff 50%, #dd5eff 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.button:hover{
+    -fx-background-color:
+        #FFFFFF,
+        linear-gradient(#fafdfe, #E8F5FC),
+        linear-gradient(#FFA4F9 0%, #FFA4F9 49%, #FFA4F9 50%, #FFA4F9 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.button:pressed {
+    -fx-background-color:
+        #005AB1,
+        linear-gradient(#009DB1, #009DA1),
+        linear-gradient(#f2f2f2 0%, #ebebeb 49%, #dddddd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.button:focus{
+    -fx-background-color:
+        #005AB1,
+        linear-gradient(#009DB1, #009DA1),
+        linear-gradient(#f2f2f2 0%, #ebebeb 49%, #dddddd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
